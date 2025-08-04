@@ -1,0 +1,22 @@
+Doubts:
+1. Why are emails not matching with customers?
+
+
+Assumptions:
+1. SendId is the marketing campaign identifier
+2. If the trx is repeated (same card membership id, same transaction date, same function date), it is an add on, so we will agg
+3. BOLETOS that are negative are type error, only positive are valid
+4. The first email is the one with the effect
+
+Questions:
+1. Does all the movies had a trx?
+2. How many users didn't have any transaction?
+
+"Tricks":
+Can cap the sales up to 12 tickets per transaction, as T&C says that is the maximum allowed.
+Will cap the info until mid july, because the dataset looks bad after that date
+Will use the first email for each user, as there is 1.05 emails per user; this will help me for accounting the effect in each campaign
+
+Filters:
+1. Only users with trx and email recieved
+2. The email used will be the first one
