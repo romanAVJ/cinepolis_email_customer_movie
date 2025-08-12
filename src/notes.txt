@@ -1,0 +1,35 @@
+How to work with the datasets:
+- Will account uniquely for email sents on 2024, no before
+    - There are 1,864,512 emails on the data set
+        - The data set has emails since 2019, there are only 486,789 emails sent on 2024
+        - There are only 478,492 emails who matched with a customer id that is on the customer dataset
+    - In the campaigns
+        - 256 diff dates
+        - 941 campaigns
+        - Each client had recieved 1.05 emails on average on the data set. That is to say, a user only gets 1 email in the whole dataset
+        - 83% of campaigns are made all the same day (and 85% of emails)
+
+- There are 454,740 users that got an email in 2024
+    - There are 5,718,369 users in total (customers dataset)
+    - There are 264,155 users that had any trx in 2024
+    - There are 21,998 users that got an email (8.3% of users that had any trx)
+    - All the users in the data set got an email
+
+- Only 91 emails have a trx on that day
+    - Only 1674 emails have a trx in the before/next 8 days
+    - Looks like 48% of emails had a trx on the following 8 days
+    - On avg, 2 tickets are bought after an email is sent in the following 8 days with 0.92 std
+    - On avg, 2.1 tickets are bought before an email is sent in the previous 8 days with 1.13 std
+
+
+
+
+
+
+
+
+
+
+
+
+
